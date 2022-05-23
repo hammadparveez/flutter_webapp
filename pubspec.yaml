@@ -37,6 +37,7 @@ dependencies:
   get: ^4.6.5
   flutter_screenutil: ^5.5.3+2
   responsive_framework: ^0.1.9
+  sticky_headers: ^0.2.0
 
 dev_dependencies:
   flutter_test:

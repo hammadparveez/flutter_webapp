@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webapp/screens/agency/agency_screen.dart';
 import 'package:flutter_webapp/utils/colors.dart';
@@ -9,9 +10,9 @@ class AgencyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        appBarTheme: const AppBarTheme(color: AppColors.transparent),
+        colorScheme: ColorScheme.dark(),
         scaffoldBackgroundColor: AppColors.backgroundColor,
       ),
       home: AgencyScreen(),
