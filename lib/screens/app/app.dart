@@ -11,10 +11,10 @@ class AgencyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.dark(),
-        scaffoldBackgroundColor: AppColors.backgroundColor,
-      ),
+      // theme: ThemeData(
+      //   colorScheme: ColorScheme.dark(),
+      //   scaffoldBackgroundColor: AppColors.backgroundColor,
+      // ),
       home: AgencyScreen(),
     );
   }
