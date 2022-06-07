@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -80,7 +79,7 @@ class SecondScreen extends StatelessWidget {
                   // ..setEntry(3, 0, -0.001),
                   // height: 200,
 
-                  width: ctx2.width * .8,
+                  width: ctx2.width,
 
                   child: BookCoverWidget(height: ctx2.height),
                   // child: _buildBody(),

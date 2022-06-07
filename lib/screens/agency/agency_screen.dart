@@ -4,9 +4,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_webapp/screens/agency/agency_controller.dart';
 import 'package:flutter_webapp/screens/second/second_screen.dart';
-
 import 'package:get/get.dart';
-
 import 'package:simple_animations/simple_animations.dart';
 
 class AgencyScreen extends StatefulWidget {
@@ -188,8 +186,8 @@ class BookCoverWidget extends StatelessWidget {
           //
           //
           transformAlignment: FractionalOffset.center,
-          height: height ?? 200,
-          width: width,
+          height: height ?? Get.height - 100,
+          width: width ?? Get.width,
           color: Color(0xffDB19DB),
           child: Image.asset(
             'assets/book-cover.png',
