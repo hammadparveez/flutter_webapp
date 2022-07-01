@@ -34,7 +34,8 @@ class SecondScreen extends StatelessWidget {
 
       return tween;
     }
-  //Apple
+
+    //Apple
     //banana
     //mango
     return Hero(
